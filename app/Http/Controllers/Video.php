@@ -18,7 +18,7 @@ class Video extends Controller
 	public function add_video(){
          return view('include/main_page', [
             'content' => 'video/add-video',
-			'user' => 'yoo',
+			'user' => 'yoo yoo',
 			
         ]); 
 	}
